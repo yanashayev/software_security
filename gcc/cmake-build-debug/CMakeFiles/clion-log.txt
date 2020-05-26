@@ -1,0 +1,37 @@
+"C:\Program Files\JetBrains\CLion 2019.3.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" C:\Users\יאנה\CLionProjects\untitled2
+-- The C compiler identification is MSVC 19.23.28107.0
+-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.23.28105/bin/Hostx86/x86/cl.exe
+-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.23.28105/bin/Hostx86/x86/cl.exe -- broken
+CMake Error at C:/Program Files/JetBrains/CLion 2019.3.1/bin/cmake/win/share/cmake-3.15/Modules/CMakeTestCCompiler.cmake:60 (message):
+  The C compiler
+
+    "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.23.28105/bin/Hostx86/x86/cl.exe"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: C:/Users/׳™׳�׳ ׳”/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/CMakeTmp
+    
+    Run Build Command(s):nmake /nologo cmTC_1be2c\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\bin\HostX86\x86\nmake.exe" -f CMakeFiles\cmTC_1be2c.dir\build.make /nologo -L                  CMakeFiles\cmTC_1be2c.dir\build
+    Building C object CMakeFiles/cmTC_1be2c.dir/testCCompiler.c.obj
+    	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @C:\Users\6D20~1\AppData\Local\Temp\nm259.tmp
+    testCCompiler.c
+    c1: fatal error C1083: Cannot open source file: 'C:\Users\????\CLionProjects\untitled2\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c': No such file or directory
+    NMAKE : fatal error U1077: 'C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe' : return code '0x2'
+    Stop.
+    NMAKE : fatal error U1077: '"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\bin\HostX86\x86\nmake.exe"' : return code '0x2'
+    Stop.
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/׳™׳�׳ ׳”/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "C:/Users/׳™׳�׳ ׳”/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/CMakeError.log".
