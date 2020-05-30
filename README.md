@@ -7,6 +7,8 @@
 This project is part of assignment in Ariel University. The purpose of thr project is to learn to write safer programing.
 
 Java- examples to not use the null value in any instance where an object is required and not catch NullPointerException or any of its ancestors.
+
+
 GCC- use modern gcc compiler includes –fsanitize=<option> options for catching potential issues.
 
 
