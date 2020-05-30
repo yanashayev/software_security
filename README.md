@@ -28,7 +28,7 @@ gcc version 9.3.0 (Ubuntu 9.3.0-10ubuntu2)
 
 
 ## Java Version:
-Polynom - form collection of monoms.
+
 
 ```
 java version "1.8.0_181"
