@@ -36,10 +36,18 @@ Java(TM) SE Runtime Environment (build 1.8.0_181-b13)
 Java HotSpot(TM) 64-Bit Server VM (build 25.181-b13, mixed mode)
 
 ```
+## explention java code:
 
-## build & run files:
 
-(c files part)
+```
+   funcion readFromExistFile(File )
+    checking on my own if the object is null by the boolean function that check if its null or not
+   function comperFile(File file1, File file2)
+   first check if both files exist (if not we print a message) and then compre them
+```
+
+
+## build & run files (c files part):
 
 ```
 to run devide by zero: ./divide
